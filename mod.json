@@ -1,0 +1,14 @@
+{
+	"geode": "4.0.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "1257plays.main_level_music_preview",
+	"name": "Main Level Music Preview",
+	"version": "v1.0.0",
+	"developer": "1257Plays",
+	"description": "Plays level music in the level select screen!"
+}
