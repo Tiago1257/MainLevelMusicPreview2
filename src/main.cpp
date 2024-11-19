@@ -1,3 +1,4 @@
+#include "Geode/binding/BoomScrollLayer.hpp"
 #include "Geode/binding/LevelSelectLayer.hpp"
 #include "Geode/cocos/layers_scenes_transitions_nodes/CCScene.h"
 #include <Geode/modify/LevelSelectLayer.hpp>
@@ -30,6 +31,6 @@ class $modify(CoolerBSLayer, BoomScrollLayer) {
 		if (auto lsLayer = CCScene::get()->getChildByType<CoolerLSLayer>(1)) {
 			lsLayer->playLevelMusic();
 		}
-		moveToPage(page);
+		BoomScrollLayer::moveToPage(page);
 	}
 };
